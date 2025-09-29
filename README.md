@@ -1,4 +1,5 @@
-# ITOps-Data-LifeCycle-Management-Agent
+# Link to live interactive DLM agent tool: [DLM AGENT](<LINK>)
+## ITOps-Data-LifeCycle-Management-Agent
 An intelligent agent for unified cloud infrastructure management, powered by **LangGraph's ReAct framework**. This agent integrates with **Kubernetes**, **Kubecost**, **Trace Volume Management**, **Jaeger** and **Prometheus** to provide a conversational interface for cluster operations, cost analysis, and trace data management and visualisation.
 
 ## Core Capabilities
@@ -10,14 +11,12 @@ An intelligent agent for unified cloud infrastructure management, powered by **L
 - **Reduction Visualisation:** Visualise the cost reductions
 - **Automated Workflows:** Proactively identify and suggest optimizations, such as cost-driven trace data reduction.
 
-The agent is deployed at : `{}`
-
 Interaction with the agent can be done via prompts
 
 ## Sample Prompts
 - Get the observability cost for the last 24 hours
 - Show me all the pods that are currently running in the `<namespace>` namespace.
-- What are all the services currently availible?
+- What are all the services currently availible in Jaeger?
 - Fetch traces from the `<service>` for the last hour.
 - Benchmark the available sampling strategies on the trace file `<path>`, setting the rate to 0.45 and the window to 3600 seconds
 - I need to inspect the standard output for the `<podname>` pod, which is in the otel-demo namespace.
