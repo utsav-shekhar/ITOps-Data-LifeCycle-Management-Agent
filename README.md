@@ -15,10 +15,10 @@ The agent is deployed at : `{}`
 Interaction with the agent can be done via prompts
 
 ## Sample Prompts
-- Get the observability for the last 24 hours
-- Show me all the pods that are currently running in the otel-demo namespace.
+- Get the observability cost for the last 24 hours
+- Show me all the pods that are currently running in the `<namespace>` namespace.
 - What are all the services currently availible?
-- Fetch traces from the 'cart' for the last hour
+- Fetch traces from the `<service>` for the last hour.
 - Benchmark the available sampling strategies on the trace file `<path>`, setting the rate to 0.45 and the window to 3600 seconds
-- I need to inspect the standard output for the 'currency-84c6b8f5d5-5lxmq' pod, which is in the otel-demo namespace.
-- Run a cost analysis to get the total and observability costs for the 'otel-demo' namespace specifically.
+- I need to inspect the standard output for the `<podname>` pod, which is in the otel-demo namespace.
+- Run a cost analysis to get the total and observability costs for the `<namespace>` namespace specifically.
