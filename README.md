@@ -1,12 +1,13 @@
 # ITOps-Data-LifeCycle-Management-Agent
-An intelligent agent for unified cloud infrastructure management, powered by **LangGraph's ReAct framework**. This agent integrates with **Kubernetes**, **Kubecost**, **Trace Volume Management**, **Visualisation** and **Jaeger** to provide a conversational interface for cluster operations, cost analysis, and trace data management and visualisation.
+An intelligent agent for unified cloud infrastructure management, powered by **LangGraph's ReAct framework**. This agent integrates with **Kubernetes**, **Kubecost**, **Trace Volume Management**, **Jaeger** and **Prometheus** to provide a conversational interface for cluster operations, cost analysis, and trace data management and visualisation.
 
 ## Core Capabilities
 
 - **Kubernetes Management:** Execute `kubectl` equivalent commands using natural language.
 - **Cloud Cost Monitoring:** Track real-time cloud and in-cluster costs via Kubecost.
-- **Jaeger:** Fetch existing services and traces for a given time period.
+- **Trace Collection:** Fetch existing services and traces for a given time period.
 - **Trace Analysis:** Evaluate and Execute sampling alogorithms for trace data.
+- **Reduction Visualisation:** Visualise the cost reductions
 - **Automated Workflows:** Proactively identify and suggest optimizations, such as cost-driven trace data reduction.
 
 The agent is deployed at : `{}`
